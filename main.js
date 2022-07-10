@@ -55,6 +55,9 @@ function my_keydown(e)
 		document.getElementById("hd3").innerHTML="You have Hit the Goal!!!";
 		document.getElementById("myCanvas").style.borderColor="red";
 	}
+	else
+	{
+
 	
 
 		if(keyPressed == '38')
@@ -78,7 +81,7 @@ function my_keydown(e)
 			console.log("right");
 		}
 	
-	
+	}
 	function up()
 	{
 		// Write a code to move ball upward.
